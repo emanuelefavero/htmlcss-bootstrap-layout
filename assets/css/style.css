@@ -1,0 +1,38 @@
+/* LAYOUT */
+main {
+  padding: 2.5rem 2rem;
+
+  > :not(:first-child) {
+    margin-top: 1.85rem;
+  }
+}
+
+/* COMPONENTS */
+.heading {
+  text-align: center;
+
+  h1 {
+    font-size: calc(1.275rem + 0.3vw);
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  p {
+    font-size: 0.75rem;
+    font-weight: lighter;
+  }
+}
+
+.box {
+  padding: 1rem;
+
+  h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 0.7rem;
+    font-weight: light;
+  }
+}
