@@ -1,12 +1,3 @@
-/* LAYOUT */
-main {
-  padding: 2.5rem 2rem;
-
-  > :not(:first-child) {
-    margin-top: 1.85rem;
-  }
-}
-
 /* COMPONENTS */
 .heading {
   text-align: center;

@@ -19,13 +19,14 @@
   </head>
 
   <body>
-    <main>
-      <div class="heading">
+    <div class="container vstack gap-3 py-5 px-4">
+      <header class="heading">
         <h1>Bootstrap 5 Responsive Grid</h1>
         <p>Layout a griglia con diversi breakpoint (sm, md, lg).</p>
-      </div>
+      </header>
 
-      <div class="container">
+      <main class="vstack gap-4">
+        <!-- Row 1 -->
         <div class="row">
           <div class="box col-12 bg-light">
             <h2>Colonna 1</h2>
@@ -34,18 +35,34 @@
               dispositivi medi e un terzo su dispositivi grandi.
             </p>
           </div>
-        </div>
-        <div class="row">
           <div class="box col-12 bg-secondary text-white">
-            <h2>Colonna 1</h2>
+            <h2>Colonna 2</h2>
             <p>
               Larghezza intera su dispositivi piccoli, metà larghezza su
               dispositivi medi e un terzo su dispositivi grandi.
             </p>
           </div>
         </div>
-      </div>
-    </main>
+
+        <!-- Row 2 -->
+        <div class="row">
+          <div class="box col-12 bg-light">
+            <h2>Colonna 1</h2>
+            <p>
+              Larghezza intera su dispositivi piccoli, metà larghezza su
+              dispositivi medi e un terzo su dispositivi grandi.
+            </p>
+          </div>
+          <div class="box col-12 bg-secondary text-white">
+            <h2>Colonna 2</h2>
+            <p>
+              Larghezza intera su dispositivi piccoli, metà larghezza su
+              dispositivi medi e un terzo su dispositivi grandi.
+            </p>
+          </div>
+        </div>
+      </main>
+    </div>
 
     <!-- Bootstrap 5 JS Bundle with Popper -->
     <script
