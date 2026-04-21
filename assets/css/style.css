@@ -1,3 +1,8 @@
+/* BASE */
+body {
+  min-width: 256px;
+}
+
 /* COMPONENTS */
 .heading {
   text-align: center;
