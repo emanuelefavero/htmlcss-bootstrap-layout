@@ -1,3 +1,10 @@
+/* TOKENS */
+:root {
+  --background: white;
+  --foreground: black;
+  --secondary: #6c757d; /* Bootstrap $gray-600 */
+}
+
 /* BASE */
 body {
   min-width: 320px;
@@ -33,6 +40,18 @@ body {
 /* Col boxes */
 .box {
   padding: 1rem;
+
+  &.box-dark {
+    color: var(--background);
+  }
+
+  &.box-light {
+    color: var(--foreground);
+
+    p {
+      color: var(--secondary);
+    }
+  }
 
   h2 {
     font-size: clamp(1rem, 3vw, 1.7rem);
