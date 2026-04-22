@@ -1,9 +1,13 @@
 /* BASE */
 body {
-  min-width: 280px;
+  min-width: 320px;
 }
 
 /* COMPONENTS */
+.page {
+  padding-inline: 2.5rem;
+}
+
 .heading {
   text-align: center;
 
