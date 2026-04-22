@@ -4,35 +4,43 @@ body {
 }
 
 /* COMPONENTS */
+
+/* Page */
 .page {
-  padding-inline: 2.5rem;
+  padding-inline: 1.5rem;
+
+  @media (min-width: 375px) {
+    padding-inline: 2.5rem;
+  }
 }
 
+/* Heading */
 .heading {
   text-align: center;
 
   h1 {
-    font-size: calc(1.275rem + 0.3vw);
+    font-size: clamp(1rem, 4vw, 2.6rem);
     font-weight: 600;
     text-transform: capitalize;
   }
 
   p {
-    font-size: 0.75rem;
+    font-size: clamp(0.7rem, 2.5vw, 1.2rem);
     font-weight: lighter;
   }
 }
 
+/* Col boxes */
 .box {
   padding: 1rem;
 
   h2 {
-    font-size: 1.2rem;
+    font-size: clamp(1rem, 3vw, 1.7rem);
     font-weight: 500;
   }
 
   p {
-    font-size: 0.7rem;
+    font-size: clamp(0.6rem, 2vw, 0.95rem);
     font-weight: light;
   }
 }
