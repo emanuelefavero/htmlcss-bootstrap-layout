@@ -1,10 +1,3 @@
-/* TOKENS */
-:root {
-  --background: white;
-  --foreground: black;
-  --secondary: #6c757d; /* Bootstrap $gray-600 */
-}
-
 /* BASE */
 body {
   min-width: 320px;
@@ -23,39 +16,21 @@ body {
 
 /* Heading */
 .heading {
-  text-align: center;
-
   h1 {
-    font-size: clamp(1rem, 4vw, 2.6rem);
-    font-weight: 600;
-    text-transform: capitalize;
+    font-size: clamp(1.25rem, 4vw, 2.6rem);
   }
 
   p {
     font-size: clamp(0.7rem, 2.5vw, 1.2rem);
-    font-weight: lighter;
   }
 }
 
-/* Col boxes */
+/* Boxes */
 .box {
   padding: 1rem;
 
-  &.box-dark {
-    color: var(--background);
-  }
-
-  &.box-light {
-    color: var(--foreground);
-
-    p {
-      color: var(--secondary);
-    }
-  }
-
   h2 {
     font-size: clamp(1rem, 3vw, 1.7rem);
-    font-weight: 500;
   }
 
   p {
