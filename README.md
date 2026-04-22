@@ -47,7 +47,8 @@ grid system and responsive utilities.
 - Used Bootstrap `col-*` classes for the asymmetric rows and
   `row-cols-*` only on the last row, where all columns share the
   same layout pattern.
-- Centralized text color in the `main` element to reduce repeated `text-white` / `text-dark` utilities.
+- Centralized white text on `main` to avoid repeating `text-white`
+  on every box
 - Kept Bootstrap responsible for most of the styles, while using `style.css` only for font-size and spacing tweaks to match the reference screenshots more closely.
 - Used `vstack` and `gap-*` utilities to manage vertical
   spacing between the header and row groups.
